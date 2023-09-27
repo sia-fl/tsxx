@@ -1,7 +1,11 @@
 {
   "name": "tsxx",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "tsx + hmr for node js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sia-fl/tsxx"
+  },
   "scripts": {
     "build": "node build.mjs",
     "lint": "prettier --write .",
@@ -13,8 +17,9 @@
   "bin": {
     "tsxx": "dist/cli.cjs"
   },
-  "author": "杨伟杰",
-  "license": "Apache-2.0",
+  "keywords": ["hmr", "node", "hot"],
+  "author": "杨伟杰 <sia-fl@outlook.com> (https://github.com/sia-fl)",
+  "license": "MIT",
   "dependencies": {
     "chokidar": "^3.5.3",
     "tsx": "^3.12.8"

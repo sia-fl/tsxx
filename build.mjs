@@ -5,7 +5,6 @@ if (fs.existsSync('dist')) {
 }
 fs.mkdirSync('dist');
 
-// 把 src 下的所有文件都递归拷贝到 dist 下，但是要排除 spec.ts 文件
 function copy(src, dist) {
   const files = fs.readdirSync(src);
   files.forEach(file => {
@@ -28,3 +27,5 @@ function copy(src, dist) {
 }
 
 copy('src', 'dist');
+
+fs.copyFileSync('README.md', 'dist/README.md');
