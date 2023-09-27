@@ -1,6 +1,6 @@
 {
   "name": "tsxx",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "tsx + hmr for node js",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "bin": {
     "tsxx": "dist/cli.cjs"
   },
-  "keywords": ["hmr", "node", "hot"],
+  "keywords": ["hmr", "node", "tsx", "esbuild", "cjs", "esm"],
   "author": "杨伟杰 <sia-fl@outlook.com> (https://github.com/sia-fl)",
   "license": "MIT",
   "dependencies": {
